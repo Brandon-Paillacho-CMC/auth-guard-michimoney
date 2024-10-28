@@ -1,5 +1,5 @@
-import { CanActivate, ExecutionContext } from '@nestjs/common';
-import { HttpService } from '@nestjs/axios';
+import { CanActivate, ExecutionContext } from "@nestjs/common";
+import { HttpService } from "@nestjs/axios";
 export declare const AUTH_CONFIG_TOKEN = "AuthConfigToken";
 interface AuthConfig {
     introspectionUrl: string;

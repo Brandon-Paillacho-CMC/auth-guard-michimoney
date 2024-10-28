@@ -1,0 +1,31 @@
+{
+  "name": "auth-guard-michimoney",
+  "version": "1.0.10",
+  "description": "A reusable NestJS AuthGuard for token introspection.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/axios": "^3.1.0",
+    "@nestjs/common": "^10.4.6",
+    "@types/express": "^5.0.0",
+    "express": "^4.21.1",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "nestjs",
+    "auth-guard",
+    "token",
+    "library"
+  ],
+  "author": "Brandon",
+  "license": "ISC"
+}
